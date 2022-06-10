@@ -1,0 +1,31 @@
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug"]
+
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Package Version Details
+      description: What version of the packages you are using?
+      placeholder: mlfoundry 2.0.1, servicefoundry 1.2.1
+  - type: textarea
+    attributes:
+      label: System information
+      description: |
+        Describe the system configuration
+      value: |
+        - OS and Distribution (eg: Linux - Ubuntu 20.04):
+        - Python version: 
+  - type: textarea
+    attributes:
+      label: Describe the bug 
+      value: |
+        Add descriptions of the expected behavior and the actual behavior. Attach screenshots / stack traces (if any)
+  - type: textarea
+    attributes:
+      label: Steps to reproduce the bug
+      description: |
+        Describe the steps to reproduce the error. Include commands/steps followed. 
+

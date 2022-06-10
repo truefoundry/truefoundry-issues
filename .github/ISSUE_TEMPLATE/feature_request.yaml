@@ -1,0 +1,11 @@
+name: Feature Request
+description: Suggest feature additions/changes in the product
+title: "[FR]: "
+labels: ["feature"]
+
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: Describe the feature addition/change that you want in the product. Include diagrams/images to explain if required.
